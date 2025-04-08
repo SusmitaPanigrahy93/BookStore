@@ -1,0 +1,70 @@
+body {
+    background-color: aliceblue;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 40px;
+    margin: 0;
+}
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    background: #f78;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+input {
+    padding: 10px;
+    margin-left: 40px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    width: calc(50% - 15px);
+    background-color: black;
+}
+input:focus {
+    outline: auto;
+}
+button {
+    padding: 8px 16px;
+    margin-bottom: 10px;
+    background-color:beige;
+    color: black;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+button:hover {
+    background-color: #0056b3;
+}
+.book-item {
+    background-color: #950e0e;
+    padding: 12px;
+    border-radius: 8px;
+    margin-bottom: 12px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.book-item strong {
+    font-size: 16px;
+  }
+  .add-book-title {
+    margin-left: 40px;
+  }
+  .form-container {
+    margin-bottom: 10px;
+  }
+  .add-book-btn {
+    margin-left: 40px;
+  }
+  .button-wrapper {
+    display: flex;
+    margin-left: 40px;
+  }
+  .search-input {
+    margin-bottom: 20px;
+    padding: 8px;
+    width: 80%;
+  }
+  
